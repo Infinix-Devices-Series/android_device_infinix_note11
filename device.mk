@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/hot10s
+DEVICE_PATH := device/infinix/note11
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/infinix/hot10s/hot10s-vendor.mk)
+$(call inherit-product, vendor/infinix/note11/note11-vendor.mk)
 
 # IMS
 $(call inherit-product, vendor/mediatek/ims/mtk-ims.mk)

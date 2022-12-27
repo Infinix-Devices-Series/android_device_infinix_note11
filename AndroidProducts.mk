@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_hot10s.mk
+   $(LOCAL_DIR)/lineage_note11.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_hot10s-user \
-    lineage_hot10s-userdebug \
-    lineage_hot10s-eng
+    lineage_note11-user \
+    lineage_note11-userdebug \
+    lineage_note11-eng

@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=hot10s
+DEVICE=note11
 VENDOR=infinix
 
 # Load extract_utils and do some sanity checks

@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 cc_library_static {
-    name: "libinit_hot10s",
+    name: "libinit_note11",
     recovery_available: true,
-    srcs: ["init_hot10s.cpp"],
+    srcs: ["init_note11.cpp"],
     shared_libs: ["libbase"],
     include_dirs: [
         "system/core/base/include",

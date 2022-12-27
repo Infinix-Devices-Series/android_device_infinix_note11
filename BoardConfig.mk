@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/hot10s
+DEVICE_PATH := device/infinix/note11
 
 # Architecture
 TARGET_ARCH := arm64
@@ -35,7 +35,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
 USE_CUSTOM_AUDIO_POLICY := 1
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X689B
+TARGET_BOOTLOADER_BOARD_NAME := Infinix-X663B
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -55,8 +55,8 @@ TARGET_ENABLE_MEDIADRM_64 := true
 TARGET_PROVIDES_MEDIATEK_IMS_STACK := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_hot10s
-TARGET_RECOVERY_DEVICE_MODULES := libinit_hot10s
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_note11
+TARGET_RECOVERY_DEVICE_MODULES := libinit_note11
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_note11.mk
+   $(LOCAL_DIR)/arrow_note11.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_note11-user \
-    lineage_note11-userdebug \
-    lineage_note11-eng
+    arrow_note11-user \
+    arrow_note11-userdebug \
+    arrow_note11-eng

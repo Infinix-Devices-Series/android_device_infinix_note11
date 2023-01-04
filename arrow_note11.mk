@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from hot10s device makefile
-$(call inherit-product, device/infinix/hot10s/device.mk)
+# Inherit from note11 device makefile
+$(call inherit-product, device/infinix/note11/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -23,8 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 IS_PHONE := true
+DEVICE_MAINTAINER := xoo2001
 
 #
 # All components inherited here go to system_ext image
@@ -34,7 +35,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := note11
-PRODUCT_NAME := lineage_note11
+PRODUCT_NAME := arrow_note11
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix NOTE 11
 PRODUCT_MANUFACTURER := Infinix
